@@ -1,0 +1,17 @@
+body {
+    font-family: verdana;
+    font-size: 12px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.VCform {
+    width: 540px;
+}
+
+.VCform fieldset {
+    margin-bottom: 18px;
+}
