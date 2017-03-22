@@ -6,7 +6,7 @@ function formSubmitAction() {
     
     dealWithRadioButtons();
 
-    $( "#btnNinja" ).on( "click", "changeNinjaStatus()");
+    
 
     return false;
 }
@@ -20,7 +20,7 @@ function setCurrentDate() {
     if(mm<10) { mm='0'+mm } 
     var strToday = ''+mm+'/'+dd+'/'+yyyy;
     console.log(strToday);
-    // $( "#datepicker" ).datepicker("setDate", strToday);
+    $( "#datepicker" ).datepicker("setDate", strToday);
 }
 
 function changeNinjaStatus() {
